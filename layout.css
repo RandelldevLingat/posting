@@ -1,0 +1,70 @@
+.Answer-Box-Container{
+    height: 40em;
+    max-width: 45em;
+    margin: 2em auto;
+}
+.web-title{
+    font-variant: small-caps;
+}
+.span-title{
+    color: #0b0345;
+}
+
+.answer-box{
+    box-shadow: 0 0 4px #0b0345;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 2em;
+    padding: 1.2em;
+}
+.answer-box hr{
+    height: 1px;
+    background-color: #0b0345;
+    width: 100% + 1.2em;
+    margin: 0;    
+}
+.answer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .8em;
+}
+
+.user-profile-container{
+    display: flex;
+    align-items: center;
+}
+.user-profile-container .user-details {
+    flex: 1; /*Get all the available space and pushes the learnify*/
+    margin: .6em 1em; 
+    
+}
+
+/* User details */
+.user-name {
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-image{
+    width: 45px;
+    height: 45px; 
+    margin-right: 1em; 
+    border: #0b0345 transparent 1px;
+    background-color: #d6d3d3;  
+    border-radius: 25px;
+    padding: 3px;
+}
+
+.explanation-container h3{
+    margin: 2em 0  0 2em;
+}
+/* answer container */
+.explanation-container p {
+    margin: 3em 2em;
+}
+@media screen and (max-width:675px){
+    .card-container,
+    .Answer-Box-Container{
+        height: auto;
+    }
+}
